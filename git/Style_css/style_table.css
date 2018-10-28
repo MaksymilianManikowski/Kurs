@@ -1,9 +1,14 @@
 table td{
-    color: darkcyan;
-    BORDER: 1px solid red;
+    color: black;
+    BORDER: 1px solid darkred;
+    padding: 10px;
+    text-alIGN: center;
 }
 
 table{
     border-collapse: collapse;
 
 }
+
+
+
