@@ -1,0 +1,9 @@
+body{
+    width:100%;
+}
+
+
+#glosowanie, fieldset{
+    background-color: darkgoldenrod;
+    width: 50%
+}
