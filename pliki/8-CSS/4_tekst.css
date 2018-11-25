@@ -1,5 +1,5 @@
 * {
-background-color: rgb(15, 255, 0);
+background-color: rgb(15, 55, 0);
 font-size: 30px;
 
 }
@@ -104,4 +104,31 @@ h5 {
 
 #normalny, #przekreślenie, #lnt, #podkreślony {
    line-height: 1.3em;
+}
+
+
+#Odległości {
+   letter-spacing: 0.25em;
+   text-transform: uppercase;
+   font-weight: 800;
+   word-spacing: 4em;
+
+}
+
+#lewy{ text-align: left;
+}
+
+#prawy { text-align: right;
+}
+
+#wyjustowany {
+
+   text-align: justify;
+}
+
+#gora {
+ background-color: darkcyan;
+color: rgb(77, 18, 36);
+height: 500px;
+;
 }
