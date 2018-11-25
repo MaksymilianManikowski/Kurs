@@ -1,1 +1,70 @@
-body { background:red}
+body {
+   background-color: rgb(191, 131, 60);
+   color: : blue;
+}
+
+p{color: rgb(167, 201, 166, 1)
+
+}
+--------------------------
+#Wzgórza{
+
+color:rgb(160, 158, 158)
+
+}
+---------------
+h1, h4{
+
+   color: rgb(255, 255, 0)
+   font-family: "Comic Sans MS";
+
+------------------------
+}
+
+a:link{
+   color:magenta;
+}
+---------------------
+a:visited{
+   color:
+}
+------------------------
+a:hover{
+   color: yellow;
+   text-decoration: underline;
+   cursor: crosshair;
+}
+-------------------
+a:active{
+   color: white;
+   background-color: hotpink
+}
+----------------------------
+ a {
+    text-decoration: none;
+}
+------------------------
+
+a:hover, a:active{
+   color: white;
+}
+--------------------------
+/*selector elementu dziecka*/
+
+ul > a:link {
+   color: black;
+
+}
+--------------------------
+/*selektor elementu potomnego */
+
+h1 a:link{
+   color: rgb(344, 245,12)
+}
+--------------------------
+
+/* selektor elementu sąsiadującego bezpośrednio*/
+
+h1+ p{
+   color:blue;
+}

@@ -1,0 +1,42 @@
+
+/*--------------------*/
+*{font-family:
+Arial,Verdana, sans-serif;
+}
+/*---------------------*/
+
+h1 {
+
+   color: Orange;
+}
+/*-------------------*/
+i {
+   color: pink;
+}
+/*----------------*/
+i {
+   color: green
+}
+/*----------------*/
+b {
+   color: blue
+}
+/*----------------*/
+p b {
+   color: magenta !important;
+   font-size: 56
+}
+/*----------------*/
+
+ p b {
+    color: brown;
+ font-size: 67%
+}
+/*----------------*/
+p#opis {
+   font-size: 55%;
+}
+/*----------------*/
+ p{
+font-size: 25;
+}
