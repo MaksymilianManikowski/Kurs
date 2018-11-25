@@ -1,0 +1,107 @@
+* {
+background-color: rgb(15, 255, 0);
+font-size: 30px;
+
+}
+/*---------------------*/
+@font-face {
+    font-family: Komoda;
+    src:url('./../fonts/Komoda/Komoda.otf');
+
+}
+
+#Komoda {
+   font-size: 200%;
+   color: darkcyan;
+   padding: 20px;
+   background-color: magenta;
+   font-family: Komoda;
+}
+/*------------------------*/
+
+@font-face {
+   font-family: Words_of_love;
+   src: url('./../fonts/words_of_love/Words_of_love/WORDSOFL.ttf');
+}
+
+#Words_of_love  {
+   font-size: 200%;
+   color: blue;
+   background-color: green;
+   font-family: Words_of_love;
+   padding:20px;
+
+}
+/*-----------------*/
+
+#georgia {
+   font-family: Georgia;
+   font-size: 53px;
+}
+/*----------------*/
+
+#times {
+   font-family:times, "Times New Roman";
+}
+
+/*--------------------*/
+.Bezszeryfowa {
+   font-family: arial, verdana;
+   font-size: 9px;
+}
+
+/*--------------*/
+
+#helvetica {
+   font-family: helvetica;
+   font-size: 29px;
+}
+/*------------------------*/
+
+#pochylona {
+   font-weight: 100;
+
+}
+ #kursywa {
+    font-weight: lighter;
+
+}
+
+#Normalna_ {
+   font-style: normal;
+
+}
+h5 {
+   color: blue;
+}
+
+ #kursywa {
+    font-style: italic;
+}
+
+.firstupper {
+   text-transform: capitalize;
+   color: aqua;
+}
+
+#normalny {
+   text-decoration: none;
+
+}
+
+#przekreślenie {
+   text-decoration: line-through;
+
+}
+#lnt {
+   text-decoration: overline;
+
+}
+ #podkreślony {
+    text-decoration: underline;
+
+}
+
+#normalny, #przekreślenie, #lnt, #podkreślony {
+   line-height: 1.3em;
+}
