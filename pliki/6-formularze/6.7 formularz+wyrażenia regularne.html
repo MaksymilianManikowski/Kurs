@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <meta charset="utf-8">
+    <title>Formularze</title>
+    </head>
+    <body>
+       <form method="get">
+        <input type="text" name="liczba" step="0.1" autofocus autocomplete="off"><br>
+        <input type="number" name="liczba" step="10" ><br> 
+        <input type="number" name="liczba" step="20"><br><hr>
+     
+            Daty:<br>
+        <input type="date"><br>
+        <input type="time"><br>
+        <input type="datetime-local"><br>
+        <input type="month"><br>
+        <input type="week"><br><hr>
+           Telefon:
+        <input type="tel"><hr>
+            Kolor:<br>
+        <input type="color"><hr>
+            Zakres:<br>
+        <input type="range" name="zakres" min="0" max="255"><hr>
+           
+           Lista:
+           
+        <label><p>Dzień tygodnia</p></label>
+        <input type="text" list="tydzień">
+        <datalist id="tydzien">
+        <option value="Poniedziałek">
+        <option value="wtorek">
+        <option value="sroda">
+        <option value="czwartek">
+        <option value="piatek">
+        <option value="sobota">
+            <option value="niedziela"></option> 
+               </datalist><hr>
+           
+           Wyrażenie regularne:<br>
+           Pesel:
+ <input type="pesel" pattern="[0-9]{1}" placeholder="12345678910" required><br>
+           
+           Kod Pocztowy:
+<input type="text" name="kod" pattern="^\d{2}-\d{3}$" placeholder="00-000"><br>
+           
+            Adres IP:  
+ <input type="text" name="ip" pattern="^\d{1,3}.\d{1,3}.\d{1,3}.\d{1,3}$" placeholder="192.168.0.1" required><br>
+            
+            Telefon komórkowy: 
+    <input type="text" name="kom" pattern="^\d{3}[-]\d{3}[-]\d{3}$" placeholder="223-223-223" required><br> 
+           
+            Hasło:
+    <!--- minimum 8 znaków, jedna duża litera, 1 mała litera, cyfra-->
+    <input type="text" name="pass" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*\d).{8,}" placeholder="JanekToLamka@wyjdź.pl" required><br>
+           
+           Zabezpieczenie:
+           
+           <keygen name="zabezpieczenia">
+           
+        
+           
+           <!-- <input type="submit">-->
+           <!-- <input type="submit" formtarget="_blank" >-->
+           <!-- <input type="submit" formtarget="_blank" formnovalidate>-->
+           
+           <input type="submit" formtarget="_blank" formnovalidate formmethod="post"><hr>
+           
+           
+                </form>
+        
+                <h4>Nowy Formularz</h4>
+        <!-- dodawanie dwóch liczb w formularzu -->
+        
+         <form oninput="wynik.value=parseInt(liczba1.value)+parseInt(liczba2.value)">
+         <input type="number" id="liczba1" value="0">+
+         <input type="number" id="liczba2" value="0">=
+         <output name="wynik" for="liczba1 liczba2"></output>
+               
+               </form>
+        
+        
+        
+        
+    </body>
+</html>
+
+
