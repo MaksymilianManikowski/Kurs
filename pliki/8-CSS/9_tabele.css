@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(41, 218, 117);
+}
+#tab1 td,#tab2 td {
+  border:3px dotted black;
+  padding:25px;
+  background-color: rgb(32, 131, 39);
+
+#tab2{
+  empty-cells: hide;
+}
+#tab3 td{
+  border:1px solid brown;
+  border-collapse: collapse;
+  padding:25px;
+}
+#tab3{
+  border-spacing:25px;
+}

@@ -1,0 +1,31 @@
+body {
+  tło-kolor: rgb(40, 99, 233);
+}
+div .box {
+  wysokość: 300px;
+  szerokość: 300px;
+  kolor tła:rgb(140, 62, 182);
+}
+p {
+  wysokość: 300px;
+  szerokość: 300px;
+  kolor tła: rgb(207, 44, 118);
+}
+.nokia {
+  wypełnienie: 20px 20px 20px 20 pikseli;
+}
+.welpees {
+  wypełnienie: 20px 20px 20px 20 pikseli;
+}
+#bottom {
+  border-bottom: 3px solid blue;
+}
+.telefon {
+  dopełnienie: 0px 50px 0px 50px;
+}
+.opis {
+  dopełnienie: 0px 250px 0px 250px;
+}
+.cena {
+  dopełnienie: 0px 50px 0px 150px;
+  }

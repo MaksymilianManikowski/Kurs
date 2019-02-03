@@ -1,0 +1,17 @@
+body {
+  background-color: orange;
+}
+ol{
+  list-style-type: upper-greek;
+}
+ul{
+  list-style-type: decimal-leading-zero;
+}
+#star{
+  list-style-image: url(../img/x.jpg);
+}
+#star li{
+  padding: 10px;
+}
+#a{
+  text-indent:30px;

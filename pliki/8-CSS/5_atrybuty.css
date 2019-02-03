@@ -1,0 +1,175 @@
+body {
+    kolor tła : aliceblue;
+}
+
+
+/ * table, tr, td {
+    obramowanie: solidne 1px czarne;
+    border-collapse: collapse;
+    dopełnienie: 10 pikseli
+}
+#jan {
+   vertical-align: text-top;
+}
+#Ania {
+   vertical-align: text-bottom;
+}
+#Pawel {
+   vertical-align: text-bottom;
+}
+#roman {
+  vertical-align: baseline;
+}
+* /
+# flaga1 {
+   vertical-align : bottom
+   szerokość: 10 px ;
+   wysokość : 10 px ;
+}
+.top {
+   vertical-align : text-top ;
+}
+
+.bottom {
+   vertical-align : text-bottom ;
+}
+
+.baseline {
+   vertical-align : baseline ;
+ }
+
+ #bmw {
+    vertical-align : bottom
+    szerokość: 230 px ;
+    wysokość : 60 px ;
+ }
+ .top {
+    vertical-align : text-top ;
+ }
+
+ .bottom {
+    vertical-align : text-bottom ;
+ }
+
+ .baseline {
+    vertical-align : baseline ;
+  }
+
+#wciecie {
+   tekst-wcięcie : 30 % ;
+   kolor tła : rgb ( 151 , 196 , 104 );
+
+}
+
+# wciecie2 {
+   tekst-wcięcie : 50 % ;
+   kolor tła : rgb ( 104 , 146 , 247 );
+}
+
+.jeden {
+   kolor : # 666666 ;
+   tekst-cień : 1 px  1 px  0 px  # 000000 ;
+   kolor tła : #eeeeee ;
+
+}
+
+/ * 1px treści przesunięcia cienia w poziomie
+ 1px liczba ekranów cienia w pionie
+0px stopień rozmazania cienia
+# 000000 kolor cienia
+* /
+
+.Dwa {
+   tekst-cień : 5 px  4 px  7 px  # 000000 ;
+   kolor tła : biały ;
+   kolor : # 666666 ;
+}
+
+.trzy {
+   tekst-cień : -4 px  3 px  4 px  # 000000 ;
+   kolor tła : fioletowy ;
+   kolor : zielony ;
+}
+
+.cztery {
+   kolor : niebieski ;
+   background-color :   #ddddd ;
+   tekst-cień : -4 px  -2 px  # 000000 ;
+}
+
+.piec {
+   kolor : czarny ;
+   background-color : #ddddd ;
+   tekst-cień : 22 px  24 px  # 000000 ;
+}
+
+
+p .linia : first-letter {
+   kolor tła : zielony ;
+
+}
+
+p .linia :: first-line {
+   kolor tła : pomarańczowy ;
+   font-weight : bolder ;
+}
+
+a : link {
+   kolor : fioletowy ;
+   dekoracja tekstowa : podkreślenie ;
+   }
+
+a : odwiedził {
+   kolor : czerwony ;
+
+}
+
+a : hover {
+   kolor : rgb ( 97 , 255 , 0 );
+   dekoracja tekstowa : podkreślenie ;
+   tekst-cień : 30 px  -3 px  5 px  szary ;
+}
+
+a : active {
+   kolor : rgb ( 184 , 0 , 106 );
+   tekst-cień : 90 px  4 px  9 px  blue ;
+}
+
+wejście {
+   wypełnienie : 30 px  30 px  30 px  30 px ;
+   kolor tła : zielony ;
+   tekst-cień : 30 px  30 px  3 px  90 px  niebieski ;
+   margin-left : 50 px ;
+}
+/ *
+   10px góra
+    30 pikseli na prawo
+    30 px dół
+    30 pikseli lewa
+* /
+
+
+input .submit {
+   kolor tła : czarny
+   dopełnienie : 190 px  190 px  390 px ;
+   kolor : żółty ;
+}
+
+input .submit : hover {
+   kolor tła : biały ;
+}
+
+input .submit : active {
+   kolor tła : srebrny ;
+
+}
+
+
+input .text : focus {
+   kolor tła : rgb ( 28 , 255 , 0 );
+   kolor : niebieski ;
+}
+p .abc , p .abcde {
+   kolor tła : szary ;
+
+}

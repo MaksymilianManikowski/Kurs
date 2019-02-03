@@ -1,5 +1,5 @@
 * {
-background-color: rgb(15, 55, 0);
+background-color: rgb(150, 55, 0);
 font-size: 30px;
 
 }
@@ -11,10 +11,10 @@ font-size: 30px;
 }
 
 #Komoda {
-   font-size: 200%;
-   color: darkcyan;
-   padding: 20px;
-   background-color: magenta;
+   font-size: 150%;
+   color: goldenrod;
+   padding: 30px;
+   background-color: mediumblue;
    font-family: Komoda;
 }
 /*------------------------*/
@@ -27,7 +27,7 @@ font-size: 30px;
 #Words_of_love  {
    font-size: 200%;
    color: blue;
-   background-color: green;
+   background-color: darkorchid;
    font-family: Words_of_love;
    padding:20px;
 
@@ -47,19 +47,19 @@ font-size: 30px;
 /*--------------------*/
 .Bezszeryfowa {
    font-family: arial, verdana;
-   font-size: 9px;
+   font-size: 56px;
 }
 
 /*--------------*/
 
 #helvetica {
    font-family: helvetica;
-   font-size: 29px;
+   font-size: 56px;
 }
 /*------------------------*/
 
 #pochylona {
-   font-weight: 100;
+   font-weight: 10;
 
 }
  #kursywa {
@@ -72,7 +72,7 @@ font-size: 30px;
 
 }
 h5 {
-   color: blue;
+   color: goldenrod;
 }
 
  #kursywa {
@@ -91,14 +91,17 @@ h5 {
 
 #przekreślenie {
    text-decoration: line-through;
+    background-color: crimson
 
 }
 #lnt {
    text-decoration: overline;
+    background-color: chartreuse
 
 }
  #podkreślony {
     text-decoration: underline;
+     background-color: aqua
 
 }
 
@@ -110,8 +113,9 @@ h5 {
 #Odległości {
    letter-spacing: 0.25em;
    text-transform: uppercase;
-   font-weight: 800;
-   word-spacing: 4em;
+   font-weight: 60;
+   word-spacing: 22em;
+    background-color: darkolivegreen
 
 }
 
@@ -127,8 +131,8 @@ h5 {
 }
 
 #gora {
- background-color: darkcyan;
-color: rgb(77, 18, 36);
+ background-color: cornsilk;
+color: rgb(122,60,4;
 height: 500px;
-;
+
 }

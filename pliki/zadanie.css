@@ -1,0 +1,27 @@
+body{
+   background-color: rgb(65,39,26);
+}
+#baner{
+   background-color: white;
+}
+#lewy {
+   float: left;
+   background-color: #DBB29C;
+   width: 40%;
+   height: 700px;
+   }
+ol{
+  list-style-type: upper-roman;
+
+}
+#prawy{
+
+   float: left;
+   background-color: #FFE3D4;
+   width: 60%;
+   height: 700px;
+}
+
+#stopka{
+   clear:both;
+}
